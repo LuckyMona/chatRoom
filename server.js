@@ -47,9 +47,15 @@ var http = require("http"),
 		serveStatic(res, cache, absPath);
 	})
 
+
 	server.listen(3000, function(){
 		console.log("server listening on port 3000")
 	});
 	
+	/*for(var name in server){
+		console.log(name + ':' + server[name])
+	}
+	console.log(typeof server);*/
+
 	chatServer = require('./lib/chat_server.js');
 	chatServer.listen(server);
