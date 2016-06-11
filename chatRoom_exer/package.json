@@ -1,0 +1,10 @@
+{
+	"name":"chatRoom2",
+	"version":"0.0.1",
+	"description":"chatRoom for exercise",
+	"private":true,
+	"dependencies":{
+		"socket.io":"~0.9.6",
+		"mime":"~1.2.7"
+	}
+}
